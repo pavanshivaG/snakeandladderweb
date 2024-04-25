@@ -1,0 +1,84 @@
+body {
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-image: url('ladder-snake-game-funny-frame-children-64850196\ \(1\).jpg');
+    background-size: cover; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:lightgoldenrodyellow;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    position: relative;
+    top: 100px;
+    background-color:rgb(251, 251, 191) ;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color:red;
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 7px;
+  }
+  
+  .button:hover {
+    background-color:bisque;
+    color:red;
+  }
+  #drawer {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgba(245, 245, 220, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .drawerBtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;
+    border: 5px ridge silver;
+    border-radius: 30%;
+    background-color: #f5f5dc;
+    font-size: 30px;
+  }
+  
+  #ladderr{
+    position:relative;
+    left: 100px;
+    bottom: 10px;
+  }
+  #snakee{
+    position:relative;
+    left: 517px;
+    bottom: 48px;
+  }

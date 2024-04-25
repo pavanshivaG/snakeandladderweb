@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snake and Ladder Game</title>
+<link rel="stylesheet" href="first.css">
+</head>
+<body>
+<div class="container">
+  <h1>Snake and Ladder Game!</h1>
+  <p>This classic game is a fun way to pass the time with friends and family.</p>
+  <p>Click the "START GAME" button below to begin.</p>
+  <a href="sal.html" class="button">START GAME</a>
+</div>
+<button class="drawerBtn" onclick="openDrawer()">?</button>
+
+<div id="drawer">
+  <button class="drawerBtn" onclick="closeDrawer()">X</button>
+  <h2>Gameplay</h2>
+  <ol>
+    <li>
+      <p>The players will move their pieces according to the number of the dice. If a player rolls a 4, then they
+        would move their piece four
+        places.</p>
+    <li>
+      <p>When a player lands on a top of a snake, their playing piece will slide down to the bottom of the snake.
+        Landing on the bottom of a snake will have no effect.</p>
+    <li>
+      <p>When a player lands at the base of a ladder, it immediately climbs to the top of the ladder. Landing at the
+        top of a ladder will have no effect.</p>
+    <li>
+      <p>The first player that reaches the highest space on the board, 100, wins the game.</p>
+  </ol>
+</div>
+<img id="ladderr" src="OIP-removebg-preview.png" alt="Description of the image">
+<img id="snakee" src="OIP__1_-removebg-preview.png" alt="Description of the image">
+
+
+</body>
+<script src="first.js"></script>
+</html>
